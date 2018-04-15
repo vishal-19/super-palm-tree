@@ -1,6 +1,5 @@
 package com.bdd;
 
-
 /**
  * This is the class which contains method that needs to be tested by cucumber
  * 
@@ -8,10 +7,10 @@ package com.bdd;
  *
  */
 public class CalculatorProject {
-	
+
 	/**
 	 * Addtion method
-	 *  
+	 * 
 	 * @param a
 	 * @param b
 	 * @return
@@ -19,7 +18,7 @@ public class CalculatorProject {
 	public int addValues(int a, int b) {
 		return a + b;
 	}
-	
+
 	/**
 	 * Multiplication method
 	 * 
@@ -27,7 +26,7 @@ public class CalculatorProject {
 	 * @param b
 	 * @return
 	 */
-	public int multiplyValues(int a,int b) {
-		return a*b;
+	public int multiplyValues(int a, int b) {
+		return a * b;
 	}
 }
